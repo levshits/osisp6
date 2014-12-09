@@ -1,0 +1,161 @@
+
+    MODULE NAME:     OSISP6.exe
+     Executable     = C:\Users\Valentin\documents\visual studio 2013\Projects\OSISP6\Debug\OSISP6.exe
+Sections
+address 4096 size 84480
+address 90112 size 10752
+address 102400 size 1536
+address 106496 size 5632
+address 114688 size 15360
+address 131072 size 4096
+
+AddressOfEntryPoint 76544
+Import Data Directory
+
+KERNEL32.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 1360 	 Sleep
+ 1218 	 SetConsoleCtrlHandler
+ 241 	 CreateToolhelp32Snapshot
+ 1037 	 Process32FirstW
+ 127 	 CloseHandle
+ 1039 	 Process32NextW
+ 965 	 Module32FirstW
+ 967 	 Module32NextW
+ 592 	 GetLastError
+ 410 	 FormatMessageW
+ 194 	 CreateFileW
+ 191 	 CreateFileMappingW
+ 960 	 MapViewOfFile
+ 862 	 IsBadReadPtr
+ 1411 	 UnmapViewOfFile
+ 839 	 InitializeCriticalSection
+ 837 	 InitializeConditionVariable
+ 232 	 CreateThread
+ 293 	 EnterCriticalSection
+ 1361 	 SleepConditionVariableCS
+ 930 	 LeaveCriticalSection
+ 1457 	 WakeAllConditionVariable
+ 1449 	 WaitForSingleObject
+ 261 	 DeleteCriticalSection
+ 526 	 GetCurrentThreadId
+ 726 	 GetSystemTimeAsFileTime
+ 522 	 GetCurrentProcessId
+ 1069 	 QueryPerformanceCounter
+ 615 	 GetModuleHandleW
+ 611 	 GetModuleFileNameW
+ 414 	 FreeLibrary
+ 1441 	 VirtualQuery
+ 674 	 GetProcessHeap
+ 819 	 HeapFree
+ 815 	 HeapAlloc
+ 877 	 IsProcessorFeaturePresent
+ 289 	 EncodePointer
+ 1483 	 WideCharToMultiByte
+ 977 	 MultiByteToWideChar
+ 935 	 LoadLibraryExW
+ 669 	 GetProcAddress
+ 1087 	 RaiseException
+ 871 	 IsDebuggerPresent
+ 254 	 DecodePointer
+
+MSVCP120D.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 1293 	 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z
+ 1389 	 ?width@ios_base@std@@QAE_J_J@Z
+ 1265 	 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+ 1380 	 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+ 1165 	 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
+ 724 	 ?_Xbad_alloc@std@@YAXXZ
+ 755 	 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+ 267 	 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+ 269 	 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z
+ 263 	 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@K@Z
+ 259 	 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z
+ 165 	 ??1_Lockit@std@@QAE@XZ
+ 446 	 ?_Debug_message@std@@YAXPB_W0I@Z
+ 1203 	 ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+ 1014 	 ?good@ios_base@std@@QBE_NXZ
+ 1337 	 ?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ
+ 921 	 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+ 1358 	 ?uncaught_exception@std@@YA_NXZ
+ 641 	 ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+ 94 	 ??0_Container_base12@std@@QAE@XZ
+ 1290 	 ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z
+ 160 	 ??1_Container_base12@std@@QAE@XZ
+ 640 	 ?_Orphan_all@_Container_base12@std@@QAEXXZ
+ 727 	 ?_Xlength_error@std@@YAXPBD@Z
+ 514 	 ?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ
+ 1253 	 ?setf@ios_base@std@@QAEHHH@Z
+ 1390 	 ?width@ios_base@std@@QBE_JXZ
+ 920 	 ?flags@ios_base@std@@QBEHXZ
+ 914 	 ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ
+ 102 	 ??0_Lockit@std@@QAE@H@Z
+
+MSVCR120D.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 1984 	 wcscat
+ 1487 	 _wfopen
+ 1724 	 fprintf
+ 1688 	 fclose
+ 1154 	 _purecall
+ 111 	 ??1type_info@@UAE@XZ
+ 397 	 _XcptFilter
+ 580 	 _amsg_exit
+ 557 	 __wgetmainargs
+ 535 	 __set_app_type
+ 366 	 _CrtSetCheckCount
+ 1679 	 exit
+ 1989 	 wcscpy
+ 604 	 _cexit
+ 623 	 _configthreadlocale
+ 537 	 __setusermatherr
+ 838 	 _initterm_e
+ 837 	 _initterm
+ 558 	 __winitenv
+ 726 	 _fmode
+ 622 	 _commode
+ 642 	 _crt_debugger_hook
+ 462 	 __crtUnhandledException
+ 461 	 __crtTerminateProcess
+ 1990 	 wcscpy_s
+ 1501 	 _wmakepath_s
+ 1535 	 _wsplitpath_s
+ 685 	 _except_handler4_common
+ 311 	 ?terminate@@YAXXZ
+ 459 	 __crtSetUnhandledExceptionFilter
+ 971 	 _lock
+ 1343 	 _unlock
+ 603 	 _calloc_dbg
+ 464 	 __dllonexit
+ 1139 	 _onexit
+ 843 	 _invoke_watson
+ 626 	 _controlfp_s
+ 1820 	 malloc
+ 1993 	 wcslen
+ 1571 	 asctime
+ 1732 	 free
+ 2027 	 wprintf
+ 1888 	 scanf
+ 1939 	 system
+ 1891 	 setlocale
+ 1833 	 memmove
+ 112 	 ??2@YAPAXI@Z
+ 842 	 _invalid_parameter
+ 349 	 _CrtDbgReportW
+ 376 	 _CxxThrowException
+ 114 	 ??3@YAXPAX@Z
+ 406 	 __CxxFrameHandler3
+ 1913 	 strlen
+ 822 	 _gmtime64
+ 694 	 _exit
+ 1854 	 printf
+ 1255 	 _strdup
+ 1294 	 _strupr
+

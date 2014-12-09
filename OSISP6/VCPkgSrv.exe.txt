@@ -1,0 +1,312 @@
+
+    MODULE NAME:     VCPkgSrv.exe
+     Executable     = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcpackages\VCPkgSrv.exe
+Sections
+address 4096 size 103936
+address 110592 size 512
+address 114688 size 7680
+address 126976 size 10240
+address 139264 size 0
+address 143360 size 2048
+
+AddressOfEntryPoint 47731
+Import Data Directory
+
+ADVAPI32.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 673 	 RegSetValueExA
+ 652 	 RegQueryInfoKeyW
+ 609 	 RegDeleteKeyA
+ 626 	 RegEnumKeyExA
+ 604 	 RegCreateKeyExA
+ 644 	 RegOpenKeyExA
+ 619 	 RegDeleteValueA
+ 596 	 RegCloseKey
+ 291 	 EventWrite
+ 290 	 EventUnregister
+ 288 	 EventRegister
+
+KERNEL32.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 822 	 HeapReAlloc
+ 390 	 FindResourceA
+ 21 	 AllocConsole
+ 414 	 FreeLibrary
+ 939 	 LoadResource
+ 815 	 HeapAlloc
+ 1345 	 SetUnhandledExceptionFilter
+ 521 	 GetCurrentProcess
+ 819 	 HeapFree
+ 1263 	 SetEvent
+ 674 	 GetProcessHeap
+ 1006 	 OpenProcess
+ 1483 	 WideCharToMultiByte
+ 1360 	 Sleep
+ 1359 	 SizeofResource
+ 818 	 HeapDestroy
+ 930 	 LeaveCriticalSection
+ 1375 	 TerminateProcess
+ 869 	 IsDBCSLeadByte
+ 977 	 MultiByteToWideChar
+ 841 	 InitializeCriticalSectionEx
+ 1087 	 RaiseException
+ 592 	 GetLastError
+ 1535 	 lstrcmpiA
+ 669 	 GetProcAddress
+ 824 	 HeapSize
+ 293 	 EnterCriticalSection
+ 676 	 GetProcessId
+ 182 	 CreateEventW
+ 254 	 DecodePointer
+ 1447 	 WaitForMultipleObjects
+ 610 	 GetModuleFileNameA
+ 612 	 GetModuleHandleA
+ 934 	 LoadLibraryExA
+ 261 	 DeleteCriticalSection
+ 127 	 CloseHandle
+ 435 	 GetCPInfo
+ 754 	 GetTickCount
+ 839 	 InitializeCriticalSection
+ 420 	 GetACP
+ 1245 	 SetConsoleTitleW
+ 771 	 GetVersion
+ 615 	 GetModuleHandleW
+ 720 	 GetSystemInfo
+ 147 	 CompareStringW
+ 772 	 GetVersionExA
+ 565 	 GetFileAttributesW
+ 186 	 CreateFileA
+ 882 	 IsValidCodePage
+ 1411 	 UnmapViewOfFile
+ 960 	 MapViewOfFile
+ 191 	 CreateFileMappingW
+ 1103 	 ReadFile
+ 571 	 GetFileSize
+ 194 	 CreateFileW
+ 1018 	 OutputDebugStringW
+ 726 	 GetSystemTimeAsFileTime
+ 526 	 GetCurrentThreadId
+ 522 	 GetCurrentProcessId
+ 1069 	 QueryPerformanceCounter
+ 877 	 IsProcessorFeaturePresent
+ 871 	 IsDebuggerPresent
+ 289 	 EncodePointer
+
+MSVCR120.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 381 	 __RTDynamicCast
+ 576 	 _configthreadlocale
+ 634 	 _except_handler4_common
+ 579 	 _controlfp_s
+ 788 	 _invoke_watson
+ 425 	 __crtSetUnhandledExceptionFilter
+ 372 	 __CxxFrameHandler3
+ 111 	 ??1type_info@@UAE@XZ
+ 427 	 __crtTerminateProcess
+ 428 	 __crtUnhandledException
+ 592 	 _crt_debugger_hook
+ 1082 	 _onexit
+ 430 	 __dllonexit
+ 558 	 _calloc_crt
+ 1284 	 _unlock
+ 916 	 _lock
+ 575 	 _commode
+ 674 	 _fmode
+ 521 	 __winitenv
+ 780 	 _initterm
+ 781 	 _initterm_e
+ 344 	 _CxxThrowException
+ 107 	 ??1reader_writer_lock@Concurrency@@QAE@XZ
+ 76 	 ??0reader_writer_lock@Concurrency@@QAE@XZ
+ 1765 	 memcmp
+ 559 	 _cexit
+ 643 	 _exit
+ 1614 	 exit
+ 498 	 __set_app_type
+ 520 	 __wgetmainargs
+ 535 	 _amsg_exit
+ 363 	 _XcptFilter
+ 650 	 _fdopen
+ 189 	 ?_CheckTaskCollection@_UnrealizedChore@details@Concurrency@@IAEXXZ
+ 98 	 ??1_StructuredTaskCollection@details@Concurrency@@QAE@XZ
+ 230 	 ?_Schedule@_StructuredTaskCollection@details@Concurrency@@QAEXPAV_UnrealizedChore@23@@Z
+ 228 	 ?_RunAndWait@_StructuredTaskCollection@details@Concurrency@@QAG?AW4_TaskCollectionStatus@23@PAV_UnrealizedChore@23@@Z
+ 151 	 ?Free@Concurrency@@YAXPAX@Z
+ 152 	 ?Get@CurrentScheduler@Concurrency@@SAPAVScheduler@2@XZ
+ 1256 	 _time64
+ 1681 	 getc
+ 1623 	 fclose
+ 1925 	 wcscpy_s
+ 1673 	 fseek
+ 1329 	 _vsnwprintf_s
+ 1920 	 wcscat_s
+ 309 	 ?terminate@@YAXXZ
+ 1675 	 ftell
+ 1665 	 fread
+ 1276 	 _ungetc_nolock
+ 1475 	 _wstat64i32
+ 1430 	 _wfsopen
+ 817 	 _ismbblead
+ 1471 	 _wsplitpath_s
+ 1892 	 ungetc
+ 658 	 _filbuf
+ 1796 	 qsort
+ 1461 	 _wsopen_s
+ 1632 	 feof
+ 1361 	 _wcsicmp
+ 112 	 ??2@YAPAXI@Z
+ 1669 	 freopen_s
+ 1853 	 strncpy_s
+ 1767 	 memcpy_s
+ 1140 	 _set_invalid_parameter_handler
+ 1097 	 _purecall
+ 137 	 ??_V@YAXPAX@Z
+ 1109 	 _recalloc
+ 1962 	 wprintf
+ 1435 	 _wgetenv_s
+ 1111 	 _resetstkoflw
+ 440 	 __iob_func
+ 1858 	 strstr
+ 1755 	 malloc
+ 1667 	 free
+ 1486 	 _wtoi
+ 1768 	 memmove
+ 114 	 ??3@YAXPAX@Z
+ 500 	 __setusermatherr
+ 1770 	 memset
+ 1534 	 calloc
+ 1241 	 _swab
+ 1766 	 memcpy
+ 1202 	 _stricmp
+ 1212 	 _strnicmp
+ 1951 	 wcstoul
+
+MSVCP120.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 716 	 ?_Xlength_error@std@@YAXPBD@Z
+ 709 	 ?_Winerror_map@std@@YAPBDH@Z
+ 688 	 ?_Syserror_map@std@@YAPBDH@Z
+ 713 	 ?_Xbad_alloc@std@@YAXXZ
+ 717 	 ?_Xout_of_range@std@@YAXPBD@Z
+
+OLE32.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 105 	 CoRegisterPSClsid
+ 124 	 CoTaskMemRealloc
+ 12 	 CLSIDFromString
+ 81 	 CoInitializeSecurity
+ 123 	 CoTaskMemFree
+ 122 	 CoTaskMemAlloc
+ 80 	 CoInitializeEx
+ 101 	 CoRegisterClassObject
+ 127 	 CoUninitialize
+ 26 	 CoCreateInstance
+ 113 	 CoRevokeClassObject
+
+USER32.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 47 	 CharNextA
+ 582 	 MessageBoxA
+
+OLEAUT32.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+	 277
+	 4
+	 314
+	 5
+	 7
+	 2
+	 286
+	 285
+	 284
+	 283
+	 6
+
+CPFE.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 63 	 ?get_semantic_tokens_for_fragments_in_view@translation_unit@edge@@QBE_NPAUallocator@2@PAUIEdgeSnapshotSession@@PBGPAUSemanticTokenArray@@@Z
+ 102 	 ?update_range@translation_unit@edge@@QAEXPAUallocator@2@PAUIEdgeSnapshotSession@@Ufile_position@2@2_N3332PAI4PAUCompileInfo@@@Z
+ 40 	 ?get_assembly_language@translation_unit@edge@@QBE?AW4AssemblyLanguage@@XZ
+ 47 	 ?get_errors_for_file@translation_unit@edge@@QBEXPAUallocator@2@PAUIEdgeSnapshotSession@@PBGPAUIsenseErrorArray@@@Z
+ 49 	 ?get_errors_for_tu@translation_unit@edge@@QBEXPAUallocator@2@PAUIEdgeSnapshotSession@@PAUIsenseErrorArray@@@Z
+ 56 	 ?get_output_pch_file@translation_unit@edge@@QBE_NPAU?$buffer@G@2@@Z
+ 53 	 ?get_input_pch_file@translation_unit@edge@@QBE_NPAU?$buffer@G@2@@Z
+ 34 	 ?contains_source_file@translation_unit@edge@@QBE_NPBG@Z
+ 58 	 ?get_preparse_snapshot_session@translation_unit@edge@@QBEPAUIEdgeSnapshotSession@@XZ
+ 82 	 ?preparse_successful@translation_unit@edge@@QBE_NXZ
+ 19 	 ??1translation_unit@edge@@QAE@XZ
+ 73 	 ?is_scope_context_active@intellisense_operation@edge@@QAE_NXZ
+ 60 	 ?get_query_action_data@intellisense_operation@edge@@QAEXPAUquery_action_data@scoped_query_manager@2@@Z
+ 57 	 ?get_param_help_overloads@intellisense_operation@edge@@QAEPAUsymbol@2@PAU?$list@PAUsymbol@edge@@@2@PAW4arg_list_entry_kind@2@PAUfile_position@2@222@Z
+ 42 	 ?get_auto_complete_members@intellisense_operation@edge@@QAEXPAU?$list@PAUsymbol@edge@@@2@W4member_list_kind@12@_NAA_N3@Z
+ 29 	 ?canonicalize@edge@@YAPBGPBG_N@Z
+ 76 	 ?last_error_code@intellisense_operation@edge@@QBE?AW4error_code@12@XZ
+ 27 	 ?call_sites_in_enclosing_function_scope@intellisense_operation@edge@@QAEXPAU?$list@Ucall_site@edge@@@2@@Z
+ 39 	 ?function_scope_enclosing_cursor@intellisense_operation@edge@@QAEPAUfunction_symbol@2@XZ
+ 85 	 ?scope_at_cursor@intellisense_operation@edge@@QAEPAUscope_entry@2@PAPAUmember_selection_entry@2@@Z
+ 38 	 ?function_call_at_cursor@intellisense_operation@edge@@QAE_NPAUcall_site@2@@Z
+ 91 	 ?symbol_at_cursor@intellisense_operation@edge@@QAEPAUsymbol@2@PAU?$list@PAUsymbol@edge@@@2@@Z
+ 17 	 ??1intellisense_operation@edge@@QAE@XZ
+ 8 	 ??0intellisense_operation@edge@@QAE@PAUallocator@1@PAVtranslation_unit@1@PAUIEdgeSnapshotSession@@ABUfile_position@1@_N@Z
+ 54 	 ?get_intermediate_symbols@a_get_symbol_operation@edge@@QBE?AW4an_error_code@12@PAVtranslation_unit@2@PAUIEdgeSnapshotSession@@W4a_symbol_filter@2@_NPAUIntermediateSymbolArray@@@Z
+ 14 	 ??1a_get_symbol_operation@edge@@QAE@XZ
+ 62 	 ?get_reference_highlights@translation_unit@edge@@QBE_NPAUallocator@2@PAUIEdgeSnapshotSession@@PBGPAUReferenceHighlightArray@@@Z
+ 52 	 ?get_inactive_regions_for_file@translation_unit@edge@@QBEXPAUallocator@2@PAUIEdgeSnapshotSession@@PBG_NPAUInactiveRegionArray@@@Z
+ 10 	 ??0scoped_query_manager@edge@@QAE@PAUallocator@1@PAVtranslation_unit@1@PAUIEdgeSnapshotSession@@_N@Z
+ 18 	 ??1scoped_query_manager@edge@@QAE@XZ
+ 105 	 install_host
+ 0 	 ??0a_find_all_refs_operation@edge@@QAE@PAUallocator@1@PAUIntermediateSymbol@@PAVtranslation_unit@1@W4a_far_filter_mode@1@@Z
+ 12 	 ??1a_find_all_refs_operation@edge@@QAE@XZ
+ 84 	 ?resolve_candidate@a_find_all_refs_operation@edge@@QAE?AW4a_far_resolution_kind@2@PAUIEdgeSnapshotSession@@ABUfile_position@2@PAK2@Z
+ 2 	 ??0a_find_def_operation@edge@@QAE@PAUallocator@1@@Z
+ 13 	 ??1a_find_def_operation@edge@@QAE@XZ
+ 35 	 ?fill_in_intermediate@edge@@YAXPAUIntermediateSymbol@@PAUsymbol@1@@Z
+ 11 	 ??0translation_unit@edge@@QAE@HPAPBGPBG1PAUIEdgeSnapshotSession@@PAUCompileInfo@@@Z
+ 51 	 ?get_host@edge@@YAPAUhost@1@XZ
+ 3 	 ??0a_get_symbol_operation@edge@@QAE@PAUallocator@1@ABUfile_line_column@1@@Z
+ 81 	 ?opened_in_editor@file_buffer@edge@@IAEXXZ
+ 100 	 ?update@file_buffer@edge@@IAEXIII@Z
+ 16 	 ??1file_buffer@edge@@MAE@XZ
+ 5 	 ??0file_buffer@edge@@IAE@XZ
+ 9 	 ??0query_action_data@scoped_query_manager@edge@@QAE@XZ
+ 7 	 ??0file_position@edge@@QAE@XZ
+ 41 	 ?get_auto_complete_members@intellisense_operation@edge@@QAEXPAU?$list@PAUsymbol@edge@@@2@W4member_list_kind@12@@Z
+ 36 	 ?find_definition@a_find_def_operation@edge@@QAE?AW4an_error_code@12@PAUIntermediateSymbol@@0PAVtranslation_unit@2@PAUIEdgeSnapshotSession@@@Z
+
+RPCRT4.DLL
+DLL not bounded
+
+Hint	Name/Ordinal
+ 1 	 CStdStubBuffer_Connect
+ 6 	 CStdStubBuffer_Invoke
+ 7 	 CStdStubBuffer_IsIIDSupported
+ 5 	 CStdStubBuffer_Disconnect
+ 4 	 CStdStubBuffer_DebugServerRelease
+ 15 	 IUnknown_AddRef_Proxy
+ 8 	 CStdStubBuffer_QueryInterface
+ 3 	 CStdStubBuffer_DebugServerQueryInterface
+ 17 	 IUnknown_Release_Proxy
+ 2 	 CStdStubBuffer_CountRefs
+ 263 	 NdrOleAllocate
+ 264 	 NdrOleFree
+ 16 	 IUnknown_QueryInterface_Proxy
+ 0 	 CStdStubBuffer_AddRef
+ 206 	 NdrDllGetClassObject
+ 153 	 NdrCStdStubBuffer_Release
+
